@@ -1,2 +1,4 @@
 # Rental-Offerings-Optimization
-Utilizing regression, trees, and clustering to optimize Airbnb listings and predict market trends, enhancing hosting strategies.
+<p align="center">
+  <img src="https://github.com/sindhu28ss/grapevine-image-classification/blob/main/images/leaves.jpeg" width="300">
+</p>
