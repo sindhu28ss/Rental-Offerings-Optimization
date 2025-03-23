@@ -27,7 +27,9 @@ The analysis is based on the [US Airbnb Open Data](https://www.kaggle.com/datase
 A Variable Importance plot was generated to evaluate the contribution of different variables, especially city variables, to the prediction task.
 Less influential city variables were identified and excluded.
 
-![Variable Importance Plot](https://github.com/sindhu28ss/airbnb-price-prediction-service/blob/main/Images/Variable%20importance%20plot.png)
+<p align="center">
+  <img src="https://github.com/sindhu28ss/Rental-Offerings-Optimization/blob/main/images/variable%20plot.png" width="500">
+</p>
 
 ## Exhaustive Search and Backward Elimination:
 
@@ -41,22 +43,35 @@ This resulted in a Final Model with only 5 predictor variables. Simplifying the 
 - **Outcome Variable:** Room_type.
 - **Evaluation Metric:** Accuracy
 
+<p align="center">
+  <img src="https://github.com/sindhu28ss/Rental-Offerings-Optimization/blob/main/images/Trees.png" width="1000">
+</p>
+
+
 ### Model 3: Clustering to Uncover Patterns in Listings
 - **Objective**: Employ clustering techniques to segment Airbnb listings, facilitating nuanced market insights and informed decision-making.
 - **Methodology**: Applied clustering algorithms to group listings into distinct categories based on shared characteristics.
-- **Cluster Insights**:
+
+**Cluster Insights**:
 - **Cluster 0**: Review-Dwelling Stays
 - **Cluster 1**: Diverse Accommodations Hub
 - **Cluster 2**: Extended Stay Options
 - **Cluster 3**: Upscale retreats
 
+<p align="center">
+  <img src="https://github.com/sindhu28ss/Rental-Offerings-Optimization/blob/main/images/Cluster.png" width="800">
+</p>
 
+**Cluster distributions**:
+- **Cluster 0**: blue
+- **Cluster 1**: green
+- **Cluster 2**: red
+- **Cluster 3**: orange
 
-- **Cluster distributions**:
-- **Cluster 0**: 'blue',
-- **Cluster 1**:  'green',
-- **Cluster 2**: 'red',
-- **Cluster 3**: 'orange'
+<p align="center">
+  <img src="https://github.com/sindhu28ss/Rental-Offerings-Optimization/blob/main/images/map.png" width="800">
+</p>
+
 
 ## Recommendations to the Host
 
